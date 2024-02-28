@@ -7,7 +7,7 @@ const cors = require("cors");
 
 //Handling the CORS policy issue: Giving access to CORS and acting as a middleware
 const corsOptions = {
-  origin:"http://localhost:3000",
+  origin:"https://home-rentals-client.vercel.app",
   methods:"GET, POST, PUT, DELETE, PATCH, HEAD",
   credentials:true,
 }
